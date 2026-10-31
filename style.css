@@ -1,0 +1,7 @@
+:root{--ink:#101828;--bg:#f2f5f7;--pan:#fff;--tx:#1c2733;--mu:#5d6b7a;--ln:#dbe2e8;--ac:#0e7c86;--ac2:#e6f4f5;--wa:#b45309;--er:#b42318;--ok:#18794e;box-sizing:border-box;padding-top:env(safe-area-inset-top,0)}
+@media(prefers-color-scheme:dark){:root{--ink:#0a0f18;--bg:#121a24;--pan:#1a2430;--tx:#e6ecf2;--mu:#93a3b3;--ln:#2d3a48;--ac:#3cc1cc;--ac2:#14343a;--wa:#f0a64f;--er:#ff8a80;--ok:#5fd39b}}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 "Schibsted Grotesk",system-ui,sans-serif;background:var(--bg);color:var(--tx)}
+h1{font-size:26px;margin:0 0 4px;font-weight:800;letter-spacing:-.5px}h2{font-size:17px;margin:22px 0 8px}
+#app{display:flex;min-height:100vh}aside{width:210px;background:var(--ink);color:#d5dde6;padding:18px 12px;flex:none}
+aside b{display:block;color:#fff;font-size:19px;margin:0 8px 16px}aside a{display:block;padding:7px 10px;border-radius:6px;cursor:pointer;color:#b9c5d1}
+aside a.on,aside a:hover{background:#ffffff1c;color:#fff}aside small{display:block;margin:14px 8px;color:#8b9aab}
